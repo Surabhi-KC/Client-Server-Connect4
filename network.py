@@ -5,10 +5,10 @@ import ssl
 
 class Network:
     def __init__(self):
-        self.server="192.168.43.247" #change
+        self.server="Server IP address" #change
         self.port=5555
         self.context = ssl.SSLContext(ssl.PROTOCOL_TLS_CLIENT)
-        self.context.load_verify_locations(r"C:\Users\Surabhi K C\connect4.com.crt")
+        self.context.load_verify_locations("Path to clients ssl certificate")
         self.context.check_hostname = False
         self.context.verify_mode = ssl.CERT_NONE
         self.client=socket.socket(socket.AF_INET,socket.SOCK_STREAM)
