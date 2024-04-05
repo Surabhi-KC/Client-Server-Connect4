@@ -5,10 +5,10 @@ from game import Game
 import ssl
 
 
-cert_path = r"C:\Users\Surabhi K C\connect4.com.crt"
-key_path = r"C:\Users\Surabhi K C\connect4.com.key"
+cert_path = "Path to ccl certificate"
+key_path = "Path to key file"
 
-server = "192.168.43.247"
+server = "Server IP address"
 port = 5555
 
 context = ssl.SSLContext(ssl.PROTOCOL_TLS_SERVER)
