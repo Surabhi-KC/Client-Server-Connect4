@@ -1,4 +1,4 @@
-# Connect4 Game - Client-Server Implementation
+# Connect4 Game - Client-Server Implementation (2024)
 A two player Connect4 game built with Python socket programming, featuring secure SSL certificate authentication. This project demonstrates client-server architecture where multiple clients can connect and play against each other through a central server.
 Two players can connect and play Connect4 in real-time. All communication handled through a central server. Secure connections using OpenSSL certificates. Multi-threaded server handling multiple client connections. Clients and server can be run either on the same machine or on different machines. Server automatically groups clients into game pairs
 
