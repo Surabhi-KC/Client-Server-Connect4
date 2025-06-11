@@ -52,5 +52,5 @@ python connect4.py
 ```
 
 ## References:
-- **Main menu UI:** [Python Game Menu Tutorial](https://www.youtube.com/watch?v=GMBqjxcKogA&list=WL&index=4)
-- **Socket programming:** [Python Socket Programming Tutorial](https://www.youtube.com/watch?v=Jr02fUyO5Qo)
+- [Python Game Menu Tutorial](https://www.youtube.com/watch?v=GMBqjxcKogA&list=WL&index=)
+- [Python Socket Programming Tutorial](https://www.youtube.com/watch?v=Jr02fUyO5Qo)
